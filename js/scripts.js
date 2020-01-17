@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $("form#celebrityForm").submit(function (event) {
+    $("form#programming-language").submit(function (event) {
         var days = $("input:radio[name=days]:checked").val();
         var person = $("input:radio[name=person]:checked").val();
         var brand = $("input:radio[name=brand]:checked").val();
