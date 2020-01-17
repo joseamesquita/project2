@@ -1,3 +1,8 @@
 #one, #two, #three {
     display: none;
 }
+
+.bg {
+    background-color: darkblue;
+    color: white;
+}
