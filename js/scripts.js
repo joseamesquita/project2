@@ -3,7 +3,7 @@ $(document).ready(function () {
         var code = $("input:radio[name=code]:checked").val();
         var person = $("input:radio[name=person]:checked").val();
         var app = $("input:radio[name=app]:checked").val();
-        var os = $("input:radio[name=os]:checked").val();
+        var system = $("input:radio[name=system]:checked").val();
         var city = $("input:radio[name=city]:checked").val();
 
 
