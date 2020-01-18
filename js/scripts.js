@@ -10,15 +10,21 @@ $(document).ready(function () {
         if (code === "1" && person === "1" && app === "2") {
             $("#two, #three").hide();
             $("#one").show();
+        } else if (code === "1" && person === "1" && system === "2") {
+            $("#two, #three").hide();
+            $("#one").show();
+        } else if (code === "3" && person === "1" && app === "1") {
+            $("#one, #three").hide();
+            $("#two").show();
         } else if (code === "4" && person === "2" && app === "2") {
             $("#one, #three").hide();
             $("#two").show();
-        } else if (code === "3" && person === "1" && app === "1") {
+        } else if (code === "4" && person === "1" && city === "4") {
             $("#one, #two").hide();
             $("#three").show();
-        } else if (code === "3" && person === "1" && city === "1") {
+        } else if (code === "2" && person === "1" && system === "1") {
             $("#one, #two").hide();
-            $("#three").show();
+            $("#two").show();
         }
         event.preventDefault();
     });
